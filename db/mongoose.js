@@ -7,6 +7,7 @@ const hostLocal = 'mongodb://localhost:27017/almostDb';
 
 mongoose.connect(hostLocal)
 
+
 module.exports = {
 	mongoose
 }
