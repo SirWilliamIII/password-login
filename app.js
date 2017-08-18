@@ -39,7 +39,12 @@ app.get('/login', (req, res) => {
 })
 
 app.post('/login', (req, res) => {
-	const user = new User(req.body)
+	const body = {
+		email: req.body.email,
+		password: req.body.password
+	}
+	const user = new User(body)
+
 	user.save()
 		.then(user => {
 			return user.generateToken()
