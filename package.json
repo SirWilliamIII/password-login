@@ -1,0 +1,25 @@
+{
+  "name": "password-login",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Will Carpenter <willcarpenteriii@gmail.com> (https://willcarpenter.site)",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^1.0.2",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "express-handlebars": "^3.0.0",
+    "gitignore": "^0.6.0",
+    "hbs": "^4.0.1",
+    "jsonwebtoken": "^7.4.3",
+    "lodash": "^4.17.4",
+    "mongoose": "^4.11.7",
+    "nodemon": "^1.11.0",
+    "validator": "^8.0.0"
+  }
+}
